@@ -75,6 +75,37 @@ p {
     padding-left: 8px;
 }
 
+.scrolled.slide-right {
+    animation: slide-in-right 1.2s ease-in-out;
+}
+
+@keyframes slide-in-right {
+    0% {
+        transform: translateX(130%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.scrolled.slide-left {
+    animation: slide-in-left 1.2s ease-in-out;
+}
+
+@keyframes slide-in-left {
+    0% {
+        transform: translateX(-130%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
 
 
 
@@ -200,16 +231,7 @@ nav {
 /* LANDING */
 
 #landing {
-    animation: animate-landing 900ms ease;
-}
-
-@keyframes animate-landing {
-    0% {
-        transform: translateX(100px);
-    }
-    100% {
-        transform: translateX(0);
-    }
+    padding: 96px 0;
 }
 
 header .row {
@@ -313,16 +335,6 @@ header .row {
 
 #feautres {
     padding: 96px 0;
-    animation: animate-features 900ms ease;
-}
-
-@keyframes animate-features {
-    0% {
-        transform: translateX(100px);
-    }
-    100% {
-        transform: translateX(0);
-    }
 }
 
 .features__title {
@@ -399,16 +411,6 @@ header .row {
 
 #quality {
     padding: 96px 0;
-    animation: animate-quality 900ms ease;
-}
-
-@keyframes animate-quality {
-    0% {
-        transform: translateX(100px);
-    }
-    100% {
-        transform: translateX(0);
-    }
 }
 
 
@@ -462,17 +464,8 @@ header .row {
 
 #steps {
     padding: 96px 0;
-    animation: animate-steps 900ms ease;
 }
 
-@keyframes animate-steps {
-    0% {
-        transform: translateX(100px);
-    }
-    100% {
-        transform: translateX(0);
-    }
-}
 
 #steps .row {
     display: flex;
@@ -544,17 +537,9 @@ header .row {
 
 #values {
     padding: 96px 0;
-    animation: animate-values 900ms ease;
 }
 
-@keyframes animate-values {
-    0% {
-        transform: translateX(100px);
-    }
-    100% {
-        transform: translateX(0);
-    }
-}
+
 
 #values .row {
     display: flex;
@@ -645,17 +630,8 @@ header .row {
 
 #pricing {
     padding: 96px 0;
-    animation: animate-pricing 900ms ease;
 }
 
-@keyframes animate-pricing {
-    0% {
-        transform: translateX(100px);
-    }
-    100% {
-        transform: translateX(0);
-    }
-}
 
 .pricing__title {
     display: flex;
@@ -819,16 +795,6 @@ header .row {
 
 #testimonials {
     padding: 96px 0;
-    animation: animate-testimonials 900ms ease;
-}
-
-@keyframes animate-testimonials {
-    0% {
-        transform: translateX(100px);
-    }
-    100% {
-        transform: translateX(0);
-    }
 }
 
 #testimonials .row {
@@ -930,17 +896,8 @@ header .row {
 
 #faq {
     padding: 96px 0;
-    animation: animate-faq 900ms ease;
 }
 
-@keyframes animate-faq {
-    0% {
-        transform: translateX(100px);
-    }
-    100% {
-        transform: translateX(0);
-    }
-}
 
 .faq__title {
     display: flex;
@@ -996,17 +953,8 @@ header .row {
 
 #started {
     padding: 96px 0;
-    animation: animate-started 900ms ease;
 }
 
-@keyframes animate-started {
-    0% {
-        transform: translateX(100px);
-    }
-    100% {
-        transform: translateX(0);
-    }
-}
 
 .getstarted__wrapper {
     padding: 96px 0;
@@ -1061,17 +1009,8 @@ footer {
     margin-top: 96px;
     padding: 80px;
     background-color: #6415ff;
-    animation: animate-footer 900ms ease;
 }
 
-@keyframes animate-footer {
-    0% {
-        transform: translateX(100px);
-    }
-    100% {
-        transform: translateX(0);
-    }
-}
 
 
 .links {
